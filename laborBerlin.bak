@@ -1,0 +1,348 @@
+EESchema Schematic File Version 4
+LIBS:laborBerlin-cache
+EELAYER 30 0
+EELAYER END
+$Descr A2 23386 16535
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L arduinoShields:Arduino_Uno_Shield XA?
+U 1 1 5DF2E4FF
+P 5600 3650
+F 0 "XA?" H 5600 5037 60  0000 C CNN
+F 1 "Arduino_Uno_Shield" H 5600 4931 60  0000 C CNN
+F 2 "" H 7400 7400 60  0001 C CNN
+F 3 "https://store.arduino.cc/arduino-uno-rev3" H 7400 7400 60  0001 C CNN
+	1    5600 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 3300 3650 2050
+Wire Wire Line
+	3650 2050 1750 2050
+Wire Wire Line
+	1750 2050 1750 3000
+Wire Wire Line
+	1750 3000 2350 3000
+Wire Wire Line
+	4300 3300 3650 3300
+Wire Wire Line
+	4300 3400 3750 3400
+Wire Wire Line
+	3750 2150 1850 2150
+Wire Wire Line
+	1850 2150 1850 3100
+Wire Wire Line
+	1850 3100 2350 3100
+Wire Wire Line
+	3750 3400 3750 2150
+Wire Wire Line
+	4300 3500 3850 3500
+Wire Wire Line
+	3850 3500 3850 2250
+Wire Wire Line
+	3850 2250 1950 2250
+Wire Wire Line
+	1950 2250 1950 3200
+Wire Wire Line
+	1950 3200 2350 3200
+Wire Wire Line
+	4300 3600 3950 3600
+Wire Wire Line
+	3950 3600 3950 2350
+Wire Wire Line
+	3950 2350 2050 2350
+Wire Wire Line
+	2050 2350 2050 3300
+Wire Wire Line
+	2050 3300 2350 3300
+Wire Wire Line
+	4300 3700 4050 3700
+Wire Wire Line
+	4050 3700 4050 2450
+Wire Wire Line
+	4050 2450 2150 2450
+Wire Wire Line
+	2150 2450 2150 3400
+Wire Wire Line
+	2150 3400 2350 3400
+Wire Wire Line
+	4300 3800 4150 3800
+Wire Wire Line
+	4150 3800 4150 2550
+Wire Wire Line
+	4150 2550 2250 2550
+Wire Wire Line
+	2250 2550 2250 3500
+Wire Wire Line
+	2250 3500 2350 3500
+Wire Wire Line
+	1600 1900 7050 1900
+Wire Wire Line
+	7050 1900 7050 2800
+Wire Wire Line
+	7050 2800 6900 2800
+$Comp
+L laborBerlin:IR2136 U?
+U 1 1 5DF2D406
+P 2850 3600
+F 0 "U?" H 2850 4565 50  0000 C CNN
+F 1 "IR2136" H 2850 4474 50  0000 C CNN
+F 2 "" H 3350 3450 50  0001 C CNN
+F 3 "" H 3350 3450 50  0001 C CNN
+	1    2850 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 1900 1600 3800
+Wire Wire Line
+	2350 3800 1600 3800
+Wire Wire Line
+	2350 4000 1600 4000
+Wire Wire Line
+	1600 4000 1600 4700
+Wire Wire Line
+	1600 4700 3750 4700
+Wire Wire Line
+	3750 4700 3750 4200
+Wire Wire Line
+	3750 4200 4300 4200
+$Comp
+L laborBerlin:ConnectorLaborBerlin U?
+U 1 1 5DF2E32B
+P 4350 6350
+F 0 "U?" H 4878 6479 50  0000 L CNN
+F 1 "ConnectorLaborBerlin" H 4878 6388 50  0000 L CNN
+F 2 "" H 4350 6350 50  0001 C CNN
+F 3 "" H 4350 6350 50  0001 C CNN
+	1    4350 6350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 2900 7700 2900
+Wire Wire Line
+	7700 2900 7700 5950
+Wire Wire Line
+	7700 5950 4700 5950
+Wire Wire Line
+	6900 3000 7550 3000
+Wire Wire Line
+	7550 3000 7550 5850
+Wire Wire Line
+	7550 5850 4350 5850
+Wire Wire Line
+	4350 5850 4350 5950
+$Comp
+L laborBerlin:PushButton U?
+U 1 1 5DF2F6CF
+P 8650 3200
+F 0 "U?" V 8716 3222 50  0000 R CNN
+F 1 "PushButton" V 8625 3222 50  0000 R CNN
+F 2 "" H 8650 3200 50  0001 C CNN
+F 3 "" H 8650 3200 50  0001 C CNN
+	1    8650 3200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L laborBerlin:PushButton U?
+U 1 1 5DF2FF8A
+P 8650 3550
+F 0 "U?" V 8716 3572 50  0000 R CNN
+F 1 "PushButton" V 8625 3572 50  0000 R CNN
+F 2 "" H 8650 3550 50  0001 C CNN
+F 3 "" H 8650 3550 50  0001 C CNN
+	1    8650 3550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6900 3100 8300 3100
+Wire Wire Line
+	6900 3200 8050 3200
+Wire Wire Line
+	8050 3200 8050 3450
+Wire Wire Line
+	8050 3450 8300 3450
+$Comp
+L Regulator_Controller:UC3843_DIP8 U?
+U 1 1 5E1683D9
+P 19850 5450
+F 0 "U?" H 19850 6031 50  0000 C CNN
+F 1 "UC3843_DIP8" H 19850 5940 50  0000 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm" H 19850 4950 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/uc3842.pdf" H 19850 5450 50  0001 C CNN
+	1    19850 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Regulator_Linear:L78L09_TO92 U?
+U 1 1 5E16986C
+P 19850 4300
+F 0 "U?" V 19804 4405 50  0000 L CNN
+F 1 "L78L09_TO92" V 19895 4405 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 19850 4525 50  0001 C CIN
+F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/15/55/e5/aa/23/5b/43/fd/CD00000446.pdf/files/CD00000446.pdf/jcr:content/translations/en.CD00000446.pdf" H 19850 4250 50  0001 C CNN
+	1    19850 4300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	19850 4600 19850 4800
+$Comp
+L power:GND #PWR?
+U 1 1 5E17862E
+P 19150 4300
+F 0 "#PWR?" H 19150 4050 50  0001 C CNN
+F 1 "GND" H 19155 4127 50  0000 C CNN
+F 2 "" H 19150 4300 50  0001 C CNN
+F 3 "" H 19150 4300 50  0001 C CNN
+	1    19150 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	19300 4800 19350 4800
+Wire Wire Line
+	19300 4300 19300 4800
+Connection ~ 19300 4300
+Wire Wire Line
+	19300 4300 19550 4300
+Connection ~ 19850 4800
+Wire Wire Line
+	19850 4800 19850 5050
+$Comp
+L pspice:CAP C?
+U 1 1 5E17A352
+P 19600 4800
+F 0 "C?" V 19285 4800 50  0000 C CNN
+F 1 "CAP" V 19376 4800 50  0000 C CNN
+F 2 "" H 19600 4800 50  0001 C CNN
+F 3 "~" H 19600 4800 50  0001 C CNN
+	1    19600 4800
+	0    1    1    0   
+$EndComp
+$Comp
+L Ramiro:VCC #PWR?
+U 1 1 5E186A51
+P 19850 2800
+F 0 "#PWR?" H 19850 2900 30  0001 C CNN
+F 1 "VCC" H 19853 2928 30  0000 C CNN
+F 2 "" H 19850 2800 60  0000 C CNN
+F 3 "" H 19850 2800 60  0000 C CNN
+	1    19850 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Ramiro:GND #PWR?
+U 1 1 5E18774D
+P 18950 2750
+F 0 "#PWR?" H 18950 2750 30  0001 C CNN
+F 1 "GND" H 18950 2680 30  0001 C CNN
+F 2 "" H 18950 2750 60  0000 C CNN
+F 3 "" H 18950 2750 60  0000 C CNN
+	1    18950 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	19850 4000 19850 3800
+Wire Wire Line
+	19850 3050 19700 3050
+Connection ~ 19850 3050
+Wire Wire Line
+	19850 3050 19850 2900
+$Comp
+L pspice:CAP C?
+U 1 1 5E18A156
+P 19450 3050
+F 0 "C?" V 19135 3050 50  0000 C CNN
+F 1 "CAP" V 19226 3050 50  0000 C CNN
+F 2 "" H 19450 3050 50  0001 C CNN
+F 3 "~" H 19450 3050 50  0001 C CNN
+	1    19450 3050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E18A59F
+P 19850 3550
+F 0 "R?" H 19920 3596 50  0000 L CNN
+F 1 "R" H 19920 3505 50  0000 L CNN
+F 2 "" V 19780 3550 50  0001 C CNN
+F 3 "~" H 19850 3550 50  0001 C CNN
+	1    19850 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	19850 3400 19850 3050
+Wire Wire Line
+	20300 2900 19850 2900
+Connection ~ 19850 2900
+Wire Wire Line
+	19850 2900 19850 2800
+$Comp
+L Device:R R?
+U 1 1 5E16BFF2
+P 20100 3800
+F 0 "R?" H 20170 3846 50  0000 L CNN
+F 1 "R" H 20170 3755 50  0000 L CNN
+F 2 "" V 20030 3800 50  0001 C CNN
+F 3 "~" H 20100 3800 50  0001 C CNN
+	1    20100 3800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	19950 3800 19850 3800
+Connection ~ 19850 3800
+Wire Wire Line
+	19850 3800 19850 3700
+Wire Wire Line
+	20300 2900 20300 3800
+Wire Wire Line
+	20700 3800 20700 6550
+Wire Wire Line
+	20700 6550 20300 6550
+Wire Wire Line
+	20300 3800 20300 6550
+Connection ~ 20300 6550
+Wire Wire Line
+	20300 6550 20300 6850
+Wire Wire Line
+	20250 3800 20700 3800
+$Comp
+L laborBerlin:Vout+ U?
+U 1 1 5E16820B
+P 20300 6950
+F 0 "U?" H 20344 7054 50  0000 L CNN
+F 1 "Vout+" H 20344 6963 50  0000 L CNN
+F 2 "" H 20300 6950 50  0001 C CNN
+F 3 "" H 20300 6950 50  0001 C CNN
+	1    20300 6950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	19150 4300 19300 4300
+$Comp
+L laborBerlin:Vout- U?
+U 1 1 5E16CE04
+P 18950 6900
+F 0 "U?" H 18994 7004 50  0000 L CNN
+F 1 "Vout-" H 18994 6913 50  0000 L CNN
+F 2 "" H 18950 6900 50  0001 C CNN
+F 3 "" H 18950 6900 50  0001 C CNN
+	1    18950 6900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	18950 6800 18950 3050
+Wire Wire Line
+	18950 3050 19200 3050
+Connection ~ 18950 3050
+Wire Wire Line
+	18950 3050 18950 2750
+$EndSCHEMATC

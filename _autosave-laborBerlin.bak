@@ -1,0 +1,108 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L arduinoShields:Arduino_Uno_Shield XA?
+U 1 1 5DF2E4FF
+P 5600 3650
+F 0 "XA?" H 5600 5037 60  0000 C CNN
+F 1 "Arduino_Uno_Shield" H 5600 4931 60  0000 C CNN
+F 2 "" H 7400 7400 60  0001 C CNN
+F 3 "https://store.arduino.cc/arduino-uno-rev3" H 7400 7400 60  0001 C CNN
+	1    5600 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 3300 3650 2050
+Wire Wire Line
+	3650 2050 1750 2050
+Wire Wire Line
+	1750 2050 1750 3000
+Wire Wire Line
+	1750 3000 2350 3000
+Wire Wire Line
+	4300 3300 3650 3300
+Wire Wire Line
+	4300 3400 3750 3400
+Wire Wire Line
+	3750 2150 1850 2150
+Wire Wire Line
+	1850 2150 1850 3100
+Wire Wire Line
+	1850 3100 2350 3100
+Wire Wire Line
+	3750 3400 3750 2150
+Wire Wire Line
+	4300 3500 3850 3500
+Wire Wire Line
+	3850 3500 3850 2250
+Wire Wire Line
+	3850 2250 1950 2250
+Wire Wire Line
+	1950 2250 1950 3200
+Wire Wire Line
+	1950 3200 2350 3200
+Wire Wire Line
+	4300 3600 3950 3600
+Wire Wire Line
+	3950 3600 3950 2350
+Wire Wire Line
+	3950 2350 2050 2350
+Wire Wire Line
+	2050 2350 2050 3300
+Wire Wire Line
+	2050 3300 2350 3300
+Wire Wire Line
+	4300 3700 4050 3700
+Wire Wire Line
+	4050 3700 4050 2450
+Wire Wire Line
+	4050 2450 2150 2450
+Wire Wire Line
+	2150 2450 2150 3400
+Wire Wire Line
+	2150 3400 2350 3400
+Wire Wire Line
+	4300 3800 4150 3800
+Wire Wire Line
+	4150 3800 4150 2550
+Wire Wire Line
+	4150 2550 2250 2550
+Wire Wire Line
+	2250 2550 2250 3500
+Wire Wire Line
+	2250 3500 2350 3500
+Wire Wire Line
+	1600 1900 7050 1900
+Wire Wire Line
+	7050 1900 7050 2800
+Wire Wire Line
+	7050 2800 6900 2800
+$Comp
+L laborBerlin:IR2136 U?
+U 1 1 5DF2D406
+P 2850 3600
+F 0 "U?" H 2850 4565 50  0000 C CNN
+F 1 "IR2136" H 2850 4474 50  0000 C CNN
+F 2 "" H 3350 3450 50  0001 C CNN
+F 3 "" H 3350 3450 50  0001 C CNN
+	1    2850 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 1900 1600 3800
+Wire Wire Line
+	2350 3800 1600 3800
+$EndSCHEMATC
